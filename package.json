@@ -1,0 +1,35 @@
+{
+  "name": "hlandry11",
+  "version": "1.0.1",
+  "description": "npm ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HLandry11/lodown.git"
+  },
+  "author": "hlandry11",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HLandry11/lodown/issues"
+  },
+  "homepage": "https://github.com/HLandry11/lodown#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "i": "^0.3.6",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "sinon": "^7.1.1"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "i": "^0.3.6",
+    "istanbul": "^0.4.5",
+    "sinon": "^7.1.1"
+  }
+}
